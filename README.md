@@ -21,17 +21,15 @@ python -m venv venv
 ```commandline
 python install -r requirements.txt
 ```
-3. Скачайте из источников модель и закиньте ее в папку /model/models
+3. Скачайте из источников модель и закиньте ее в папку /model/models (можете удалить весь код связанный с моделью в api.py)
 4. Создайте и запустите Docker контейнер с MongoDB для сбора и последующего использования данных (см. mdb_con.py)
-5. Скачайте из источников модель и закиньте ее в папку /model/models
-6. Далее можно запустить main.py, parser.py или api.py в зависимости от того что вам нужно
+5. Далее можно запустить main.py, parser.py или api.py в зависимости от того что вам нужно
 ВАЖНО: при парсинге нельзя сворачивать, закрывать, накладывать что-то на парсер, так как данные будут либо плохо, либо совсем не парситься.
 ## Скриншоты
 
 <img width="793" height="198" alt="изображение" src="https://github.com/user-attachments/assets/9eec77c0-fc5a-46ec-b2f5-f4e97b893add" />
 
 Промпт: http://localhost:8000/ai/?q=назови достоинства смартфона Apple iPhone 17
-
 
 Ответ модели:
 <img width="1915" height="127" alt="изображение" src="https://github.com/user-attachments/assets/fe4aef71-4fb8-424a-a19b-3859bd90efdc" />
