@@ -1,0 +1,17 @@
+bs4==0.0.2
+dask==2025.12.0
+fastapi==0.128.0
+httpx==0.28.1
+tqdm==4.67.1
+pymongo==4.15.5
+lxml==6.0.2
+undetected-chromedriver==3.5.5
+setuptools==80.9.0
+selenium==4.39.0
+pyarrow==22.0.0
+pandas==2.3.3
+uvicorn==0.40.0
+accelerate==1.12.0
+hf-xet==1.2.0
+transformers==4.57.3
+torch==2.9.1
