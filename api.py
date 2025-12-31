@@ -49,7 +49,7 @@ async def home():
         "http://localhost:8000/avg/rate": "Возвращает средний рейтинг по категории, бренду и году",
         "http://localhost:8000/avg/price": "Возвращает среднюю цену по категории, бренду и году",
         "http://localhost:8000/brand/{brand_name}": "Возвращает статистику по бренду",
-        "http://localhost:8000/ai/?q={prompt}": "Запрос к пред обученной нейро модели",
+        "http://localhost:8000/ai/?q={prompt}": "Запрос к обученной модели",
     }
 
 
@@ -88,3 +88,4 @@ def api_run():
 
 if __name__ == "__main__":
     api_run()
+
